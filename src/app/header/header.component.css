@@ -1,0 +1,41 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+.container-fluid{
+    width: 100%;
+    padding: 0;
+}
+.nav{
+    margin-bottom:1em;
+    background-color: rgba(255, 81, 0, 0.404);
+}
+.nav-link{
+    padding: 1em;
+    margin: 0.5em 1em;
+}
+a.nav-link {
+    color: black;
+    font-weight: 600;
+    font-size: 110%;
+}
+a.nav-link.active{
+    background-color: rgba(196, 0, 0, 0.712);
+}
+.nav-pills .nav-item.show .nav-link{
+    background-color: rgba(255, 255, 255, 0);
+}
+.dropdown-menu{
+    opacity: 2;
+    background-color: rgba(196, 0, 0, 0.781);
+}
+.dropdown-item{
+    color: black;
+    font-weight: 600;
+}
+.dropdown-item:hover{
+    background: rgb(255, 136, 0);
+}
